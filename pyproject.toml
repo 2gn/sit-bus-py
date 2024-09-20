@@ -5,7 +5,9 @@ description = "SIT bus API client implemented in Python"
 authors = [
     { name = "2gn", email = "101851090+2gn@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+    "requests>=2.32.3",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
