@@ -1,0 +1,24 @@
+[project]
+name = "sitbus"
+version = "0.1.0"
+description = "SIT bus API client implemented in Python"
+authors = [
+    { name = "2gn", email = "101851090+2gn@users.noreply.github.com" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sitbus"]
