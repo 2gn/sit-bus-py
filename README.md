@@ -1,5 +1,7 @@
 # sit-bus-py
 
+:warning: NOT YET READY FOR USE
+
 ## get_datas()
 Returns timetable parsed into somewhat better format. The object has six keys:
 
